@@ -1,7 +1,7 @@
 $listener = New-Object System.Net.HttpListener
 $listener.Prefixes.Add('http://devmonstudio.com/')
 $listener.Start()
-Write-Host 'Server started at http://localhost:3000'
+Write-Host 'Server started at http://devmonstudio.com'
 
 $root = 'C:\Users\Dell\.gemini\antigravity\scratch\devmon-studio'
 
