@@ -1,5 +1,5 @@
 $listener = New-Object System.Net.HttpListener
-$listener.Prefixes.Add('http://localhost:3000/')
+$listener.Prefixes.Add('http://devmonstudio.com/')
 $listener.Start()
 Write-Host 'Server started at http://localhost:3000'
 
